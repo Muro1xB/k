@@ -1,4 +1,4 @@
-بالطبع! إليك شرحًا مبسطًا للكود الذي قمت بمشاركته، حتى تتمكن من وضعه على GitHub مع شرح مناسب:
+
 
 ### 1. **الغرض العام للكود:**
 الكود هو أداة أمنية تُستخدم لأغراض تعليمية واختبارية فقط. يحتوي على عدة وحدات تسمح بإجراء فحوصات أمنية مثل فحص الثغرات الأمنية، وهجمات القوة الغاشمة، ومحاكاة هجمات حجب الخدمة (DoS)، وإنشاء صفحات التصيد الاحتيالي، وتحليل الشبكة، وأدوات الحماية والخصوصية.
@@ -21,45 +21,4 @@
 ### 4. **كيفية استخدام الكود:**
 - **التشغيل:** يجب تشغيل الكود بصلاحيات `root` باستخدام `sudo` لأن بعض الوظائف تتطلب صلاحيات عالية.
 - **الاختيارات:** بعد تشغيل الكود، سيظهر قائمة رئيسية تسمح للمستخدم باختيار الوظيفة المطلوبة.
-
-### 5. **نصائح للنشر على GitHub:**
-- **الوصف (README.md):** يمكنك إضافة ملف `README.md` يشرح الغرض من الأداة وكيفية استخدامها مع التأكيد على أنها لأغراض تعليمية فقط.
-- **الترخيص (LICENSE):** قم بإضافة ترخيص مناسب يحدد شروط استخدام الكود.
-- **التحذيرات:** أضف تحذيرات واضحة في الوصف تؤكد على أن الأداة يجب أن تستخدم فقط في بيئات مرخصة ولا يجب استخدامها لأغراض غير قانونية.
-
-### 6. **مثال لملف `README.md`:**
-```markdown
-# Hexploit - Security Assessment Tool
-
-Hexploit is a security assessment tool designed for educational and authorized testing purposes only. It provides various modules for vulnerability scanning, brute force attacks, DoS attack simulation, phishing, network analysis, and anonymity tools.
-
-## Features
-- **Vulnerability Scanner:** Scan targets for open ports and vulnerabilities using `nmap`.
-- **Brute Force Attack Tool:** Perform brute force attacks on SSH, FTP, and web forms using `hydra`.
-- **DoS Attack Simulator:** Simulate DoS attacks for educational purposes.
-- **Phishing Tool:** Create phishing pages for authorized security testing.
-- **Network Analysis:** Analyze network interfaces, scan devices, and capture network traffic.
-- **Anonymity Tools:** Start Tor service, check current IP, and change MAC address.
-
-## Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Muro1xB/Hex.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Hex
-   ```
-3. Run the tool with root privileges:
-   ```bash
-   sudo python3 hexploit.py
-   ```
-
-## Disclaimer
-This tool is intended for educational and authorized testing purposes only. Do not use it for any illegal activities. The developers are not responsible for any misuse of this tool.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
 
